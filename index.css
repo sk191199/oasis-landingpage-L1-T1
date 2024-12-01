@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-container{
+    background-image: url(./imgss/6057485.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.head{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.slogan-para{
+    font-size: 20px;
+}
+
+.para{
+    font-size: 12px;
+}
+
+.button{
+    height: 40px;
+    width: 140px;
+    background-color: aquamarine;
+    border-radius: 18px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 90vh;
+}
+
+.img-style{
+    width: 25%;
+    border-radius: 24px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.text-conatainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text-conatainer h1{
+    font-size: 30px;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+.icons{
+    width: 30%;
+    list-style: none;
+    margin-right: 1rem;
+    background-color: lightgray;
+    border-radius: 8px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+.icons-containner{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    height: 40px;
+    width: 200px;
+    gap: 1rem;
+}
+
+.section-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 90vh;
+}
+
+.anchor-el{
+    color: green;
+    font-weight: bold;
+}
+
+.section-5{
+    display: flex;
+    height: 90vh;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.box-image{
+    border-radius: 40px;
+    height: 100px;
+    width: 200px;
+}
+.box-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.container-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section-6{
+    background-image: url(./imgss/bg-2.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: #ffffff;
+}
+
+.section-6 h1{
+    align-self: center;
+    margin-top: 3rem;
+    font-size: 50px;
+}
+
+.globe-container{
+    align-self: self-end;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.un-img{
+    height: 60px;
+    width: 80px;
+
+}
+
+.num-container{
+    text-align: center;
+}
